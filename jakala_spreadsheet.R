@@ -4,7 +4,7 @@ library(dplyr)
 library(openxlsx)
 library(tidyverse)
 
-iscritti <- REPORT_ISCRITTI_445963_20211119_06_46_06
+iscritti <- REPORT_ISCRITTI_##################
 
 iscritti <- iscritti %>% mutate(PRESENTATORE = str_sub(PRESENTATORE,8,-1))
 
